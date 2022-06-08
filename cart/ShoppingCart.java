@@ -6,6 +6,7 @@ import java.io.Console;
 public class ShoppingCart {
     public static void main(String[] args) {
         System.out.println("Welcome to your shopping cart");
+        System.out.println("This is extra-features branch");
         List<String> cart = new LinkedList<>();
         Console cons = System.console();
         String input;
